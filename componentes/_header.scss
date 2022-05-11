@@ -1,0 +1,22 @@
+.alinearDerecha {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.carrito {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.color__Index {
+    color: rgb(5, 252, 5);
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: 'Share Tech Mono', monospace;
+}

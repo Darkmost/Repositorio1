@@ -1,0 +1,257 @@
+*{
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imagenes/fondo5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.alinearCentro1 {
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    color: rgb(5, 252, 5);
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: black;
+    border-radius: 5%;
+    height: 100px;
+    width: 300px;
+    margin: 2rem auto;
+    text-align: center;
+    margin-right: center;
+    margin-top: center;
+    background: linear-gradient(to bottom, black, rgb(80, 79, 79));
+}
+
+.alinearCentro2 {
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    color: rgb(5, 252, 5);
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5%;
+    margin: 2rem auto;
+    text-align: center;
+    margin-right: center;
+    margin-top: center;
+}
+
+.alinearBusqueda {
+    display: flex;
+    justify-content: center;
+}
+
+.alinearboton {
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(5, 252, 5),greenyellow);
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Share Tech Mono', monospace;
+    cursor: pointer;
+    transform: translateX(57.5rem)
+}
+
+.alinearboton3 {
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(5, 252, 5),greenyellow);
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Share Tech Mono', monospace;
+    cursor: pointer;
+    transform: translateX(53rem)
+}
+
+.alinearboton4 {
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(5, 252, 5),greenyellow);
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Share Tech Mono', monospace;
+    cursor: pointer;
+    transform: translateX(53.4rem)
+}
+
+
+.alinearImagenes {
+    text-align: Center;
+    word-spacing: 100px;
+    border: double;
+    border-color: rgb(5, 252, 5) ;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    grid-area: ele5;
+    margin-top: 8rem;
+    &__fondo {
+        background-color: black;
+    width: 150px;
+    }
+}
+
+.alinearDatos {
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 25px;
+    color: rgb(5, 252, 5);
+    font-weight: bold;
+    background: linear-gradient(to bottom, black, rgb(80, 79, 79));
+}
+
+.alinearIzquierda{
+    color: rgb(5, 252, 5);
+    font-family: 'Share Tech Mono', monospace;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+
+.alinearIzquierda1 {
+    color: rgb(5, 252, 5);
+    font-family: 'Share Tech Mono', monospace;
+    padding: 1cm;
+}
+
+.fondo2 {
+    background: linear-gradient(to bottom, black, rgb(80, 79, 79));
+}
+
+.boton {
+    background-image: linear-gradient(to bottom, rgb(5, 252, 5),greenyellow);
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Share Tech Mono', monospace;
+    cursor: pointer;
+    grid-area: ele3;
+    transform: translateY(-80px) translateX(-100px);
+    transition: width 1s;
+    width: 77px;
+}
+
+.boton:hover {
+    width: 190px;
+}
+
+.links li {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+    grid-area: ele3;
+}
+.links {
+    background-color: greenyellow;
+    width: 190px;
+    display: none;
+    transform: translateY(-80px) translateX(-100px);
+   
+}
+.links li:hover {
+    background-image: linear-gradient(to bottom, rgb(5, 252, 5),greenyellow);
+}
+.desplegable:hover .links {
+    display: block;
+}
+.desplegable {
+    position: relative;
+    grid-area: ele3;
+    padding: 10rem;
+}
+
+.imagencover {
+    width: 150px;
+    height: 550px;
+}
+
+.alinearpreguntas {
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 25px;
+    color: rgb(5, 252, 5);
+    font-weight: bold;
+    background: linear-gradient(to bottom, black, rgb(80, 79, 79));
+}
+
+.preguntas {
+    color: rgb(5, 252, 5);    
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 25px;
+}
+
+.preguntas1 {
+    color: rgb(5, 252, 5);
+    padding-top: 2rem;    
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 25px;
+}
+
+.metododepago {
+    color: rgb(5, 252, 5);
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 25px;
+}
+
+.envios {
+    color: rgb(5, 252, 5);
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 25px;
+}
+
+.devoluciones {
+    color: rgb(5, 252, 5);
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 25px;
+}
+
+
+.bienvenidos {
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 35px;
+    color: rgb(5, 252, 5);
+    font-weight: bold;
+    padding: 1px;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    background: linear-gradient(to bottom, black, rgb(80, 79, 79));
+}
+
+.factos {
+    display: flex;
+    flex-direction: row;
+}
+
+ @import "./componentes/header";
+ @import "./componentes/footer";
+ @import "./componentes/mediaq1024";
+ @import "./componentes/mediaq768";
+ @import "./componentes/mediaq280";

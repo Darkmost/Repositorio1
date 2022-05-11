@@ -1,0 +1,19 @@
+{
+  "name": "technodmg",
+  "version": "1.0.0",
+  "description": "aplicando sass",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass estiloindex.scss ./css/estiloindex.css -w --no-source-map -s compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkmost/Repositorio1.git"
+  },
+  "author": "Juan Pablo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darkmost/Repositorio1/issues"
+  },
+  "homepage": "https://github.com/Darkmost/Repositorio1#readme"
+}
