@@ -1,0 +1,35 @@
+.alinearDatos {
+    @extend .alinearDatos 
+}
+
+.alinearCentro1 {
+    text-align: center;
+    font-family: $fuente;
+    font-size: 20px;
+    color: $color;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: black;
+    border-radius: 5%;
+    height: 100px;
+    width: 300px;
+    margin: 2rem auto;
+    text-align: center;
+    margin-right: center;
+    margin-top: center;
+    background: $fondo;
+}
+
+.alinearboton {
+    text-align: center;
+    background-image: linear-gradient(to bottom, $color,greenyellow);
+    padding: 5px;
+    font-size: 15px;
+    font-family: $fuente;
+    cursor: pointer;
+    transform: translateX(57.5rem);
+}

@@ -1,0 +1,75 @@
+.alinearImagenes {
+    text-align: Center;
+    word-spacing: 100px;
+    border: double;
+    border-color: $color ;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    grid-area: ele5;
+    margin-top: 8rem;
+    &__fondo {
+        background-color: black;
+    width: 150px;
+    }
+}
+
+.bienvenidos {
+    text-align: center;
+    font-family: $fuente;
+    font-size: 35px;
+    color: $color;
+    font-weight: bold;
+    padding: 1px;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    background: $fondo;
+}
+
+.imagencover {
+    width: 150px;
+    height: 550px;
+}
+
+.links {
+    background-color: greenyellow;
+    width: 190px;
+    transform: translateY(-80px) translateX(-100px);
+    li {
+        text-decoration: none;
+        color: black;
+        display: block;
+        padding: 10px;
+        grid-area: ele3;
+        &:hover {
+            background-image: linear-gradient(to bottom, $color,greenyellow);
+        }
+    }
+}
+
+.desplegable {
+    position: relative;
+    grid-area: ele3;
+    padding: 10rem;
+    &:hover .links {
+        display: block;
+    }
+}
+
+.boton {
+    background-image: linear-gradient(to bottom, $color,greenyellow);
+    padding: 5px;
+    font-size: 15px;
+    font-family: $fuente;
+    cursor: pointer;
+    grid-area: ele3;
+    transform: translateY(-80px) translateX(-100px);
+    transition: width 1s;
+    width: 77px;
+    &:hover {
+        width: 190px;
+    }
+}

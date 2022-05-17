@@ -10,14 +10,19 @@
     display: flex;
     justify-content: flex-end;
     padding: 0.5rem;
-    background-image: linear-gradient(to bottom, rgb(5, 252, 5),greenyellow);
+    background-image: linear-gradient(to bottom, $color,greenyellow);
 }
 
 .color__Index {
-    color: rgb(5, 252, 5);
+    color: $color;
     display: flex;
     padding: 0.5rem;
     flex-direction: row;
     justify-content: flex-end;
     font-family: 'Share Tech Mono', monospace;
+}
+
+.alinearBusqueda {
+    display: flex;
+    justify-content: center;
 }

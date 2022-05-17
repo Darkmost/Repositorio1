@@ -1,0 +1,22 @@
+*{
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imagenes/fondo5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.alinearDatos {
+    text-align: center;
+    font-family: $fuente;
+    font-size: 25px;
+    color: $color;
+    font-weight: bold;
+    background: $fondo;
+}

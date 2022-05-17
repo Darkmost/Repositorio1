@@ -1,0 +1,56 @@
+.alinearpreguntas {
+    text-align: center;
+    padding: 1rem;
+    font-family: $fuente;
+    font-size: 25px;
+    color: $color;
+    font-weight: bold;
+    background: $fondo;
+}
+
+.preguntas {
+    color: $color;    
+    font-weight: bold;
+    text-align: center;
+    font-family: $fuente;
+    font-size: 25px;
+}
+
+.preguntas1 {
+    color: $color;
+    padding-top: 2rem;    
+    font-weight: bold;
+    text-align: center;
+    font-family: $fuente;
+    font-size: 25px;
+}
+
+.metododepago {
+    color: $color;
+    font-weight: bold;
+    text-align: center;
+    font-family: $fuente;
+    font-size: 25px;
+}
+
+.envios {
+    color: $color;
+    font-weight: bold;
+    text-align: center;
+    font-family: $fuente;
+    font-size: 25px;
+}
+
+.devoluciones {
+    color: $color;
+    font-weight: bold;
+    text-align: center;
+    font-family: $fuente;
+    font-size: 25px;
+}
+
+.factos {
+    display: flex;
+    flex-direction: row;
+}
+
