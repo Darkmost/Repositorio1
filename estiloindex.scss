@@ -1,8 +1,16 @@
+/*Import*/
+
 @import "./componentes/header";
 @import "./componentes/footer";
 @import "./componentes/mediaq1024";
 @import "./componentes/mediaq768";
 @import "./componentes/mediaq280";
+
+/*Variables*/
+
+$fuente: 'Share Tech Mono', monospace;
+$color: rgb(5, 252, 5);
+$fondo: linear-gradient(to bottom, black, rgb(80, 79, 79));
 
 *{
     margin: 1px;
@@ -20,9 +28,9 @@ body {
 
 .alinearCentro1 {
     text-align: center;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: $fuente;
     font-size: 20px;
-    color: rgb(5, 252, 5);
+    color: $color;
     font-weight: bold;
     padding: 10px;
     margin-top: 5px;
@@ -37,14 +45,14 @@ body {
     text-align: center;
     margin-right: center;
     margin-top: center;
-    background: linear-gradient(to bottom, black, rgb(80, 79, 79));
+    background: $fondo;
 }
 
 .alinearCentro2 {
     text-align: center;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: $fuente;
     font-size: 20px;
-    color: rgb(5, 252, 5);
+    color: $color;
     font-weight: bold;
     padding: 10px;
     margin-top: 5px;
@@ -65,30 +73,30 @@ body {
 
 .alinearboton {
     text-align: center;
-    background-image: linear-gradient(to bottom, rgb(5, 252, 5),greenyellow);
+    background-image: linear-gradient(to bottom, $color,greenyellow);
     padding: 5px;
     font-size: 15px;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: $fuente;
     cursor: pointer;
-    transform: translateX(57.5rem)
+    transform: translateX(57.5rem);
 }
 
 .alinearboton3 {
     text-align: center;
-    background-image: linear-gradient(to bottom, rgb(5, 252, 5),greenyellow);
+    background-image: linear-gradient(to bottom, $color,greenyellow);
     padding: 5px;
     font-size: 15px;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: $fuente;
     cursor: pointer;
     transform: translateX(53rem)
 }
 
 .alinearboton4 {
     text-align: center;
-    background-image: linear-gradient(to bottom, rgb(5, 252, 5),greenyellow);
+    background-image: linear-gradient(to bottom, $color,greenyellow);
     padding: 5px;
     font-size: 15px;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: $fuente;
     cursor: pointer;
     transform: translateX(53.4rem)
 }
@@ -98,7 +106,7 @@ body {
     text-align: Center;
     word-spacing: 100px;
     border: double;
-    border-color: rgb(5, 252, 5) ;
+    border-color: $color ;
     border-left-width: 10px;
     border-right-width: 10px;
     border-bottom-width: 10px;
@@ -113,70 +121,69 @@ body {
 
 .alinearDatos {
     text-align: center;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: $fuente;
     font-size: 25px;
-    color: rgb(5, 252, 5);
+    color: $color;
     font-weight: bold;
-    background: linear-gradient(to bottom, black, rgb(80, 79, 79));
+    background: $fondo;
 }
 
 .alinearIzquierda{
-    color: rgb(5, 252, 5);
-    font-family: 'Share Tech Mono', monospace;
+    color: $color;
+    font-family: $fuente;
     padding: 5px;
     font-weight: bold;
     
 }
 
 .alinearIzquierda1 {
-    color: rgb(5, 252, 5);
-    font-family: 'Share Tech Mono', monospace;
+    color: $color;
+    font-family: $fuente;
     padding: 1cm;
 }
 
 .fondo2 {
-    background: linear-gradient(to bottom, black, rgb(80, 79, 79));
+    background: $fondo;
 }
 
 .boton {
-    background-image: linear-gradient(to bottom, rgb(5, 252, 5),greenyellow);
+    background-image: linear-gradient(to bottom, $color,greenyellow);
     padding: 5px;
     font-size: 15px;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: $fuente;
     cursor: pointer;
     grid-area: ele3;
     transform: translateY(-80px) translateX(-100px);
     transition: width 1s;
     width: 77px;
+    &:hover {
+        width: 190px;
+    }
 }
 
-.boton:hover {
-    width: 190px;
-}
-
-.links li {
-    text-decoration: none;
-    color: black;
-    display: block;
-    padding: 10px;
-    grid-area: ele3;
-}
 .links {
     background-color: greenyellow;
     width: 190px;
     transform: translateY(-80px) translateX(-100px);
-   
+    li {
+        text-decoration: none;
+        color: black;
+        display: block;
+        padding: 10px;
+        grid-area: ele3;
+        &:hover {
+            background-image: linear-gradient(to bottom, $color,greenyellow);
+        }
+    }
 }
-.links li:hover {
-    background-image: linear-gradient(to bottom, rgb(5, 252, 5),greenyellow);
-}
-.desplegable:hover .links {
-    display: block;
-}
+
 .desplegable {
     position: relative;
     grid-area: ele3;
     padding: 10rem;
+    &:hover .links {
+        display: block;
+    }
 }
 
 .imagencover {
@@ -187,67 +194,67 @@ body {
 .alinearpreguntas {
     text-align: center;
     padding: 1rem;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: $fuente;
     font-size: 25px;
-    color: rgb(5, 252, 5);
+    color: $color;
     font-weight: bold;
-    background: linear-gradient(to bottom, black, rgb(80, 79, 79));
+    background: $fondo;
 }
 
 .preguntas {
-    color: rgb(5, 252, 5);    
+    color: $color;    
     font-weight: bold;
     text-align: center;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: $fuente;
     font-size: 25px;
 }
 
 .preguntas1 {
-    color: rgb(5, 252, 5);
+    color: $color;
     padding-top: 2rem;    
     font-weight: bold;
     text-align: center;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: $fuente;
     font-size: 25px;
 }
 
 .metododepago {
-    color: rgb(5, 252, 5);
+    color: $color;
     font-weight: bold;
     text-align: center;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: $fuente;
     font-size: 25px;
 }
 
 .envios {
-    color: rgb(5, 252, 5);
+    color: $color;
     font-weight: bold;
     text-align: center;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: $fuente;
     font-size: 25px;
 }
 
 .devoluciones {
-    color: rgb(5, 252, 5);
+    color: $color;
     font-weight: bold;
     text-align: center;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: $fuente;
     font-size: 25px;
 }
 
 
 .bienvenidos {
     text-align: center;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: $fuente;
     font-size: 35px;
-    color: rgb(5, 252, 5);
+    color: $color;
     font-weight: bold;
     padding: 1px;
     margin-top: 1px;
     margin-left: 1px;
     margin-right: 1px;
     margin-bottom: 1px;
-    background: linear-gradient(to bottom, black, rgb(80, 79, 79));
+    background: $fondo;
 }
 
 .factos {
