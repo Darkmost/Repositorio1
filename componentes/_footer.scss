@@ -1,5 +1,9 @@
+.alinearIzquierda{
+    @extend .alinearIzquierda
+  }
+
 .footer {
-    text-align: right;
+    text-align: left;
     padding: 50px;
     color: $color;
 }

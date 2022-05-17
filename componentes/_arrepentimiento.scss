@@ -1,9 +1,5 @@
 .alinearIzquierda{
-    color: $color;
-    font-family: $fuente;
-    padding: 5px;
-    font-weight: bold;
-    
+  @extend .alinearIzquierda
 }
 
 .alinearCentro2 {

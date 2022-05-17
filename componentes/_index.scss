@@ -1,3 +1,7 @@
+.alinearIzquierda{
+    @extend .alinearIzquierda
+  }
+
 .alinearImagenes {
     text-align: Center;
     word-spacing: 100px;
