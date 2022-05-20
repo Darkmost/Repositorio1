@@ -13,13 +13,10 @@
         background-attachment: fixed;
     }
     
-    .icono {
-        text-align: left;
-        margin-top: 0px;
-        margin-left: 0px;
-        margin-right: 10px;
-        margin-bottom: 10px;
+    .efectoimagen :hover {
+        transform: scale(1.3);
     }
+
     .alinearDerecha {
         font-family: 'Share Tech Mono', monospace;
         font-size: 15px;
