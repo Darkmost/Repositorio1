@@ -23,13 +23,3 @@
 .fondo2 {
     background: $fondo;
 }
-
-.alinearboton3 {
-    text-align: center;
-    background-image: linear-gradient(to bottom, $color,greenyellow);
-    padding: 5px;
-    font-size: 15px;
-    font-family: $fuente;
-    cursor: pointer;
-    transform: translateX(53rem)
-}

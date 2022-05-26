@@ -1,28 +1,8 @@
 @media screen and (max-width: 1024px) {
-    *{
-        margin: 1px;
-        padding: 1px;
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-    }
-    
-    body {
-        background-image: url(../imagenes/fondo5.jpg);
-        background-size: cover;
-        background-attachment: fixed;
-    }
-    
-    .efectoimagen :hover {
-        transform: scale(1.3);
-    }
 
     .alinearDerecha {
-        font-family: 'Share Tech Mono', monospace;
-        font-size: 15px;
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
     }
     
     .carrito {
@@ -32,34 +12,32 @@
     }
     
     .color__Index {
-        color: rgb(5, 252, 5);
+        color: $color;
         display: flex;
         padding: 0.5rem;
         flex-direction: row;
         justify-content: flex-end;
-        font-family: 'Share Tech Mono', monospace;
+        font-family: $fuente;
     }
     
     .alinearCentro {
         text-align: center;
-        font-family: 'Share Tech Mono', monospace;
+        font-family: $fuente;
         font-size: 20px;
-        color: rgb(5, 252, 5);
+        color: $color;
         font-weight: bold;
         padding: 10px;
         margin-top: 5px;
         margin-left: 5px;
         margin-right: 5px;
         margin-bottom: 75px;
-        
-    
     }
     
     .alinearCentro1 {
         text-align: center;
-        font-family: 'Share Tech Mono', monospace;
+        font-family: $fuente;
         font-size: 20px;
-        color: rgb(5, 252, 5);
+        color: $color;
         font-weight: bold;
         padding: 10px;
         margin-top: 5px;
@@ -74,14 +52,14 @@
         text-align: center;
         margin-right: center;
         margin-top: center;
-        background: linear-gradient(to bottom, black, rgb(80, 79, 79));
+        background: linear-gradient(to bottom, black, $fondo);
     }
     
     .alinearCentro2 {
         text-align: center;
-        font-family: 'Share Tech Mono', monospace;
+        font-family: $fuente;
         font-size: 20px;
-        color: rgb(5, 252, 5);
+        color: $color;
         font-weight: bold;
         padding: 10px;
         margin-top: 5px;
@@ -95,15 +73,6 @@
         margin-top: center;
     }
     
-    .alinearcoment {
-        border: 1px;
-        display: inline-block;
-        width: auto;
-        margin: auto;
-        padding: 20px, 20px;
-        text-align: justify;
-    }
-    
     .alinearBusqueda {
         display: flex;
         justify-content: center;
@@ -111,54 +80,36 @@
     
     .alinearboton {
         text-align: center;
-        background-image: linear-gradient(to bottom, rgb(5, 252, 5),greenyellow);
+        background-image: linear-gradient(to bottom, $color,greenyellow);
         padding: 5px;
         font-size: 15px;
-        font-family: 'Share Tech Mono', monospace;
+        font-family: $fuente;
         cursor: pointer;
-        transform: translateX(30rem)
-    }
-    
-    .alinearboton3 {
-        text-align: center;
-        background-image: linear-gradient(to bottom, rgb(5, 252, 5),greenyellow);
-        padding: 5px;
-        font-size: 15px;
-        font-family: 'Share Tech Mono', monospace;
-        cursor: pointer;
-        transform: translateX(25rem)
-    }
-    
-    .alinearboton4 {
-        text-align: center;
-        background-image: linear-gradient(to bottom, rgb(5, 252, 5),greenyellow);
-        padding: 5px;
-        font-size: 15px;
-        font-family: 'Share Tech Mono', monospace;
-        cursor: pointer;
-        transform: translateX(27rem)
+        display: flex;
+        justify-content: center;
     }
     
     .footer {
         text-align: right;
         padding: 50px;
-        color: rgb(5, 252, 5) ;
+        color: $color ;
     }
     
     .derechos {
         padding: 10px;
-        color: rgb(5, 252, 5);
+        color: $color;
         border: dotted;
         background-color: black;
         margin-bottom: 2cm;
         display: flex;
         justify-content: center;
     }
+
     .alinearImagenes {
         text-align: Center;
         word-spacing: 100px;
         border: double;
-        border-color: rgb(5, 252, 5) ;
+        border-color: $color ;
         border-left-width: 10px;
         border-right-width: 10px;
         border-bottom-width: 10px;
@@ -169,23 +120,23 @@
     
     .alinearDatos {
         text-align: center;
-        font-family: 'Share Tech Mono', monospace;
+        font-family: $fuente;
         font-size: 25px;
-        color: rgb(5, 252, 5);
+        color: $color;
         font-weight: bold;
-       background: linear-gradient(to bottom, black, rgb(80, 79, 79));
+       background: linear-gradient(to bottom, black, $fondo);
     }
     
     .alinearIzquierda{
-        color: rgb(5, 252, 5);
-        font-family: 'Share Tech Mono', monospace;
+        color: $color;
+        font-family: $fuente;
         padding: 5px;
         
     }
     
     .alinearIzquierda1 {
-        color: rgb(5, 252, 5);
-        font-family: 'Share Tech Mono', monospace;
+        color: $color;
+        font-family: $fuente;
         padding: 1cm;
     }
     .fondo {
@@ -194,14 +145,14 @@
     }
     
     .fondo2 {
-        background: linear-gradient(to bottom, black, rgb(80, 79, 79));
+        background: linear-gradient(to bottom, black, $fondo);
     }
     
     .boton {
-        background-image: linear-gradient(to bottom, rgb(5, 252, 5),greenyellow);
+        background-image: linear-gradient(to bottom, $color,greenyellow);
         padding: 5px;
         font-size: 15px;
-        font-family: 'Share Tech Mono', monospace;
+        font-family: $fuente;
         cursor: pointer;
         grid-area: ele3;
         transform: translateY(-80px) translateX(-100px);
@@ -227,27 +178,6 @@
         transform: translateY(-80px) translateX(-100px);
        
     }
-    .links li:hover {
-        background-image: linear-gradient(to bottom, rgb(5, 252, 5),greenyellow);
-    }
-    .desplegable:hover .links {
-        display: block;
-    }
-    .desplegable {
-        position: relative;
-        grid-area: ele3;
-        padding: 10rem;
-    }
-    
-    .imagenfooter {
-        width: 40px;
-        height: 40px;
-    }
-    
-    .imagencover {
-        width: 400px;
-        height: 500px;
-    }
     
     .imagenfooter2 {
         display: flex;
@@ -256,91 +186,44 @@
         padding: 1rem;
     }
     
-    .alinearpreguntas {
-        text-align: center;
-        padding: 1rem;
-        font-family: 'Share Tech Mono', monospace;
-        font-size: 25px;
-        color: rgb(5, 252, 5);
-        font-weight: bold;
-        background: linear-gradient(to bottom, black, rgb(80, 79, 79));
-        display: grid;
-        grid-template-columns: 33.3% 33.3% 33.3%;
-        grid-template-rows:  50% 50% color black;
-        grid-template-areas: 
-        "ele1 ele1 ele1"
-        "ele2 ele3 ele4"
-    }
-    
     .preguntas {
-        color: rgb(5, 252, 5);    
+        color: $color;    
         font-weight: bold;
-        grid-area: ele1;
         text-align: center;
-        font-family: 'Share Tech Mono', monospace;
+        font-family: $fuente;
         font-size: 25px;
+        padding-top: 1rem; 
     }
     
-    .preguntas1 {
-        color: rgb(5, 252, 5);
-        padding-top: 2rem;    
+    .metodo {
+        color: $color;
         font-weight: bold;
-        grid-area: ele1;
-        text-align: center;
-        font-family: 'Share Tech Mono', monospace;
-        font-size: 25px;
-    }
-    
-    .metododepago {
-        color: rgb(5, 252, 5);
-        font-weight: bold;
-        grid-area: ele2;
-        text-align: center;
-        font-family: 'Share Tech Mono', monospace;
-        font-size: 25px;
-    }
-    
-    .envios {
-        color: rgb(5, 252, 5);
-        font-weight: bold;
-        grid-area: ele3;
-        text-align: center;
-        font-family: 'Share Tech Mono', monospace;
-        font-size: 25px;
-    }
-    
-    .devoluciones {
-        color: rgb(5, 252, 5);
-        font-weight: bold;
-        grid-area: ele4;
-        text-align: center;
-        font-family: 'Share Tech Mono', monospace;
-        font-size: 25px;
-    }
-    
-    .maingrid {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows:  15% 25% 30% 30%;
-        grid-template-areas:
-        "ele1 ele1"
-        "ele2 ele2"
-        "ele3 ele4"
-        "ele5 ele5"
+        text-align: left;
+        font-family: $fuente;
+        font-size: 20px;
+        
     }
     
     .bienvenidos {
         text-align: center;
-        font-family: 'Share Tech Mono', monospace;
-        font-size: 25px;
-        color: rgb(5, 252, 5);
+        font-family: $fuente;
+        font-size: 35px;
+        color: $color;
         font-weight: bold;
         padding: 1px;
         margin-top: 1px;
         margin-left: 1px;
         margin-right: 1px;
         margin-bottom: 1px;
-        grid-area: ele1;
-        
+        background: $fondo;
     }
  }
+
+ .boton7 {
+    display: flex;
+    justify-content: center;
+}
+
+.efectoimagen :hover {
+    transform: scale(1.3);
+}

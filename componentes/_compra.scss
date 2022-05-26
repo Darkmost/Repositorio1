@@ -31,5 +31,8 @@
     font-size: 15px;
     font-family: $fuente;
     cursor: pointer;
-    transform: translateX(57.5rem);
+    display: flex;
+    justify-content: center;
 }
+
+
