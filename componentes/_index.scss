@@ -1,12 +1,8 @@
-.alinearIzquierda{
-    @extend .alinearIzquierda
-  }
-
 .alinearImagenes {
     text-align: Center;
     word-spacing: 100px;
     border: double;
-    border-color: $color ;
+    border-color: $colors ;
     border-left-width: 10px;
     border-right-width: 10px;
     border-bottom-width: 10px;
@@ -20,10 +16,8 @@
 }
 
 .bienvenidos {
-    text-align: center;
+    @include letras (center, $colors, 35px);
     font-family: $fuente;
-    font-size: 35px;
-    color: $color;
     font-weight: bold;
     padding: 1px;
     margin-top: 1px;
@@ -49,7 +43,7 @@
         padding: 10px;
         grid-area: ele3;
         &:hover {
-            background-image: linear-gradient(to bottom, $color,greenyellow);
+            background-image: linear-gradient(to bottom, $colors,greenyellow);
         }
     }
 }
@@ -64,7 +58,7 @@
 }
 
 .boton {
-    background-image: linear-gradient(to bottom, $color,greenyellow);
+    background-image: linear-gradient(to bottom, $colors,greenyellow);
     padding: 5px;
     font-size: 15px;
     font-family: $fuente;

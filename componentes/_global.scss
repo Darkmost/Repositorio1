@@ -13,17 +13,53 @@ body {
 }
 
 .alinearDatos {
-    text-align: center;
+    @include letras (center, $colors, 25px);
     font-family: $fuente;
-    font-size: 25px;
-    color: $color;
     font-weight: bold;
     background: $fondo;
 }
 
 .alinearIzquierda{
-    color: $color;
+    color: $colors;
     font-family: $fuente;
     padding: 5px;
     font-weight: bold;
+}
+
+.alinearboton {
+    text-align: center;
+    background-image: linear-gradient(to bottom, $colors,greenyellow);
+    padding: 5px;
+    font-size: 15px;
+    font-family: $fuente;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.fondo2 {
+    background: $fondo;
+}
+
+.alinearCentro2 {
+    @include letras (center, $colors, 20px);
+    font-family: $fuente;
+    font-weight: bold;
+    margin: 2rem auto;
+}
+
+.boton7 {
+    display: flex;
+    justify-content: center;
+}
+
+.alinearboton {
+    text-align: center;
+    background-image: linear-gradient(to bottom, $colors,greenyellow);
+    padding: 5px;
+    font-size: 15px;
+    font-family: $fuente;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
 }

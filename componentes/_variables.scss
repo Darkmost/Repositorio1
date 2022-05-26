@@ -1,3 +1,15 @@
 $fuente: 'Share Tech Mono', monospace;
 $fondo: linear-gradient(to bottom, black, rgb(80, 79, 79));
-$color: #05fc05;
+$colors: #05fc05;
+
+@mixin letras ($align, $color, $size) {
+    text-align: $align;
+    color: $color;
+    font-size: $size;
+    
+}
+
+$colores: (
+verde: #05fc05,
+amarillo:#adff2f,
+)

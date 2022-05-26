@@ -12,7 +12,7 @@
     }
     
     .color__Index {
-        color: $color;
+        color: $colors;
         display: flex;
         padding: 0.5rem;
         flex-direction: row;
@@ -21,10 +21,8 @@
     }
     
     .alinearCentro {
-        text-align: center;
+        @include letras (center, $colors, 20px);
         font-family: $fuente;
-        font-size: 20px;
-        color: $color;
         font-weight: bold;
         padding: 10px;
         margin-top: 5px;
@@ -34,10 +32,8 @@
     }
     
     .alinearCentro1 {
-        text-align: center;
+        @include letras (center, $colors, 20px);
         font-family: $fuente;
-        font-size: 20px;
-        color: $color;
         font-weight: bold;
         padding: 10px;
         margin-top: 5px;
@@ -52,14 +48,12 @@
         text-align: center;
         margin-right: center;
         margin-top: center;
-        background: linear-gradient(to bottom, black, $fondo);
+        background: $fondo;
     }
     
     .alinearCentro2 {
-        text-align: center;
+        @include letras (center, $colors, 20px);
         font-family: $fuente;
-        font-size: 20px;
-        color: $color;
         font-weight: bold;
         padding: 10px;
         margin-top: 5px;
@@ -80,7 +74,7 @@
     
     .alinearboton {
         text-align: center;
-        background-image: linear-gradient(to bottom, $color,greenyellow);
+        background-image: linear-gradient(to bottom, $colors,greenyellow);
         padding: 5px;
         font-size: 15px;
         font-family: $fuente;
@@ -92,12 +86,12 @@
     .footer {
         text-align: right;
         padding: 50px;
-        color: $color ;
+        color: $colors ;
     }
     
     .derechos {
         padding: 10px;
-        color: $color;
+        color: $colors;
         border: dotted;
         background-color: black;
         margin-bottom: 2cm;
@@ -109,7 +103,7 @@
         text-align: Center;
         word-spacing: 100px;
         border: double;
-        border-color: $color ;
+        border-color: $colors ;
         border-left-width: 10px;
         border-right-width: 10px;
         border-bottom-width: 10px;
@@ -119,23 +113,21 @@
     }
     
     .alinearDatos {
-        text-align: center;
+        @include letras (center, $colors, 25px);
         font-family: $fuente;
-        font-size: 25px;
-        color: $color;
         font-weight: bold;
        background: linear-gradient(to bottom, black, $fondo);
     }
     
     .alinearIzquierda{
-        color: $color;
+        color: $colors;
         font-family: $fuente;
         padding: 5px;
         
     }
     
     .alinearIzquierda1 {
-        color: $color;
+        color: $colors;
         font-family: $fuente;
         padding: 1cm;
     }
@@ -149,7 +141,7 @@
     }
     
     .boton {
-        background-image: linear-gradient(to bottom, $color,greenyellow);
+        background-image: linear-gradient(to bottom, $colors,greenyellow);
         padding: 5px;
         font-size: 15px;
         font-family: $fuente;
@@ -187,28 +179,27 @@
     }
     
     .preguntas {
-        color: $color;    
+        
+        color: $colors;    
         font-weight: bold;
         text-align: center;
         font-family: $fuente;
         font-size: 25px;
         padding-top: 1rem; 
     }
+
+    
     
     .metodo {
-        color: $color;
+        @include letras (left, $colors, 20px);
         font-weight: bold;
-        text-align: left;
         font-family: $fuente;
-        font-size: 20px;
         
     }
     
     .bienvenidos {
-        text-align: center;
+        @include letras (center, $colors, 35px);
         font-family: $fuente;
-        font-size: 35px;
-        color: $color;
         font-weight: bold;
         padding: 1px;
         margin-top: 1px;
@@ -218,11 +209,6 @@
         background: $fondo;
     }
  }
-
- .boton7 {
-    display: flex;
-    justify-content: center;
-}
 
 .efectoimagen :hover {
     transform: scale(1.3);

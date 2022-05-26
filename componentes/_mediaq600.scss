@@ -31,11 +31,9 @@
     
     
     .preguntas {
-        color: $color;    
+        @include letras (center, $colors, 25px);    
         font-weight: bold;
-        text-align: center;
         font-family: $fuente;
-        font-size: 25px;
         padding-top: 1rem; 
     }
     

@@ -1,12 +1,6 @@
-.alinearDatos {
-    @extend .alinearDatos 
-}
-
 .alinearCentro1 {
-    text-align: center;
+    @include letras (center, $colors, 20px);
     font-family: $fuente;
-    font-size: 20px;
-    color: $color;
     font-weight: bold;
     padding: 10px;
     margin-top: 5px;
@@ -24,15 +18,6 @@
     background: $fondo;
 }
 
-.alinearboton {
-    text-align: center;
-    background-image: linear-gradient(to bottom, $color,greenyellow);
-    padding: 5px;
-    font-size: 15px;
-    font-family: $fuente;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-}
+
 
 

@@ -1,18 +1,19 @@
 .preguntas {
-        color: $color;    
+    @include letras (center, $colors, 25px);   
         font-weight: bold;
-        text-align: center;
         font-family: $fuente;
-        font-size: 25px;
         padding-top: 1rem; 
     }
 
+.preguntas1 {
+    @extend .preguntas;
+    padding-top: 2rem;
+}
+
 .metodo {
-    color: $color;
+    @include letras (left, $colors, 20px);
     font-weight: bold;
-    text-align: left;
     font-family: $fuente;
-    font-size: 20px;
     
 }
 

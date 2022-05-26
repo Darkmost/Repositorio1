@@ -1,16 +1,12 @@
-.alinearIzquierda{
-    @extend .alinearIzquierda
-  }
-
 .footer {
     text-align: left;
     padding: 50px;
-    color: $color;
+    color: $colors;
 }
 
 .derechos {
     padding: 10px;
-    color: $color;
+    color: $colors;
     border: dotted;
     background-color: black;
     margin-bottom: 2cm;

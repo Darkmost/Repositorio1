@@ -1,5 +1,5 @@
 .alinearDerecha {
-    font-family: 'Share Tech Mono', monospace;
+    font-family: $fuente;
     font-size: 15px;
     display: flex;
     flex-direction: row;
@@ -10,16 +10,16 @@
     display: flex;
     justify-content: flex-end;
     padding: 0.5rem;
-    background-image: linear-gradient(to bottom, $color,greenyellow);
+    background-image: linear-gradient(to bottom, $colors,greenyellow);
 }
 
 .color__Index {
-    color: $color;
+    color: $colors;
     display: flex;
     padding: 0.5rem;
     flex-direction: row;
     justify-content: flex-end;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: $fuente;
 }
 
 .alinearBusqueda {
