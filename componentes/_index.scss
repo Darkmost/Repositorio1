@@ -32,42 +32,26 @@
     height: 550px;
 }
 
-.links {
-    background-color: greenyellow;
-    width: 190px;
-    transform: translateY(-80px) translateX(-100px);
-    li {
-        text-decoration: none;
-        color: black;
-        display: block;
-        padding: 10px;
-        grid-area: ele3;
-        &:hover {
-            background-image: linear-gradient(to bottom, $colors,greenyellow);
-        }
-    }
-}
-
-.desplegable {
-    position: relative;
-    grid-area: ele3;
-    padding: 10rem;
-    &:hover .links {
-        display: block;
-    }
-}
-
 .boton {
+    display: flex;
+    justify-content: center;
     background-image: linear-gradient(to bottom, $colors,greenyellow);
     padding: 5px;
     font-size: 15px;
     font-family: $fuente;
     cursor: pointer;
-    grid-area: ele3;
-    transform: translateY(-80px) translateX(-100px);
-    transition: width 1s;
     width: 77px;
-    &:hover {
-        width: 190px;
-    }
 }
+
+.motherboards {
+    @include cards ($colors, 15px, $fuente);
+    text-align: left;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 1cm;
+}
+

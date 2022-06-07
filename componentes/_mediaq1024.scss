@@ -141,14 +141,13 @@
     }
     
     .boton {
+        display: flex;
+        justify-content: center;
         background-image: linear-gradient(to bottom, $colors,greenyellow);
         padding: 5px;
         font-size: 15px;
         font-family: $fuente;
         cursor: pointer;
-        grid-area: ele3;
-        transform: translateY(-80px) translateX(-100px);
-        transition: width 1s;
         width: 77px;
     }
     

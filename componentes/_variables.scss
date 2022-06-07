@@ -4,12 +4,13 @@ $colors: #05fc05;
 
 @mixin letras ($align, $color, $size) {
     text-align: $align;
-    color: $color;
+    color: $colors;
     font-size: $size;
     
 }
 
-$colores: (
-verde: #05fc05,
-amarillo:#adff2f,
-)
+@mixin cards ($color, $size, $fuentes) {
+    font-family: $fuente;
+    color: $colors;
+    font-size: $size;
+}
